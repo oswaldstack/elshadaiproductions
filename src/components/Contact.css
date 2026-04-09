@@ -98,6 +98,11 @@
   pointer-events: none;
 }
 
+.modern-form select ~ label {
+  top: -0.5rem;
+  font-size: 0.75rem;
+}
+
 .modern-form input:focus ~ label,
 .modern-form input:not(:placeholder-shown) ~ label,
 .modern-form select:focus ~ label,

@@ -89,7 +89,7 @@ const Contact = () => {
               </div>
               <div className="form-group">
                 <select id="service" name="service" required defaultValue="">
-                  <option value="" disabled hidden></option>
+                  <option value="" disabled hidden>Choose a service...</option>
                   <option value="music-production">Music Production</option>
                   <option value="video-production">Video Production</option>
                   <option value="live-streaming">Live Streaming</option>
