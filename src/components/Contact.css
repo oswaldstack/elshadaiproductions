@@ -1,0 +1,119 @@
+.contact {
+  background: var(--bg-secondary);
+  position: relative;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+@media (max-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-info h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info > p {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.info-item .icon {
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.info-item h4 {
+  margin-bottom: 0.25rem;
+  color: var(--brand-gold);
+}
+
+.info-item p {
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.contact-form-wrapper {
+  padding: 3rem;
+}
+
+.modern-form .form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.modern-form input,
+.modern-form select,
+.modern-form textarea {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--glass-border);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.modern-form input:focus,
+.modern-form select:focus,
+.modern-form textarea:focus {
+  outline: none;
+  border-bottom-color: var(--brand-gold);
+}
+
+.modern-form label {
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.modern-form input:focus ~ label,
+.modern-form input:not(:placeholder-shown) ~ label,
+.modern-form select:focus ~ label,
+.modern-form select:valid ~ label,
+.modern-form textarea:focus ~ label,
+.modern-form textarea:not(:placeholder-shown) ~ label {
+  top: -0.5rem;
+  font-size: 0.75rem;
+  color: var(--brand-gold);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+select option {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
