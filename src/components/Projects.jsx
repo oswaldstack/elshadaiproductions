@@ -4,6 +4,12 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
+      title: "UNGA ANBU",
+      type: "Music Video",
+      videoId: "AFh7u-f-60U",
+      link: "https://youtu.be/AFh7u-f-60U"
+    },
+    {
       title: "Kaividavillai",
       type: "Music Video",
       videoId: "qd1f-aLshkg",
