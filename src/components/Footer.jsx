@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-brand">
             <a href="#home" className="logo">
               <div className="logo-main">Elshadai<span className="text-gradient-gold">Productions</span></div>
-              <div className="company-type">Pvt Ltd</div>
+              <div className="company-type">Gospel Music & Visual Label</div>
             </a>
             <p className="brand-desc">
               Where Faith Meets Creativity. Professional media production services for churches and artists.

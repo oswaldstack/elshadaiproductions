@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <a href="#home" className="logo">
           <div className="logo-main">Elshadai<span className="text-gradient-gold">Productions</span></div>
-          <div className="company-type">Pvt Ltd</div>
+          <div className="company-type">Gospel Music & Visual Label</div>
         </a>
 
         <div 
