@@ -87,7 +87,8 @@ const Contact = () => {
                 <input type="email" id="email" name="email" placeholder=" " required />
                 <label htmlFor="email">Your Email</label>
               </div>
-              <div className="form-group">
+              <div className="form-group select-group">
+                <label htmlFor="service" className="static-label">Select Service</label>
                 <select id="service" name="service" required defaultValue="">
                   <option value="" disabled hidden>Choose a service...</option>
                   <option value="music-production">Music Production</option>
@@ -95,7 +96,6 @@ const Contact = () => {
                   <option value="live-streaming">Live Streaming</option>
                   <option value="other">Other</option>
                 </select>
-                <label htmlFor="service">Select Service</label>
               </div>
               <div className="form-group">
                 <textarea id="message" name="message" placeholder=" " rows="4" required></textarea>

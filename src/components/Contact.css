@@ -98,9 +98,20 @@
   pointer-events: none;
 }
 
-.modern-form select ~ label {
-  top: -0.5rem !important;
-  font-size: 0.75rem !important;
+
+/* Static label for select field */
+.modern-form .select-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.modern-form .static-label {
+  position: static;
+  font-size: 0.75rem;
+  color: var(--brand-gold);
+  pointer-events: none;
+  padding-left: 0.5rem;
 }
 
 .modern-form input:focus ~ label,
