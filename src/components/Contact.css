@@ -99,8 +99,8 @@
 }
 
 .modern-form select ~ label {
-  top: -0.5rem;
-  font-size: 0.75rem;
+  top: -0.5rem !important;
+  font-size: 0.75rem !important;
 }
 
 .modern-form input:focus ~ label,

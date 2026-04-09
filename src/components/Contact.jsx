@@ -95,7 +95,7 @@ const Contact = () => {
                   <option value="live-streaming">Live Streaming</option>
                   <option value="other">Other</option>
                 </select>
-                <label htmlFor="service">Service Interested In</label>
+                <label htmlFor="service">Select Service</label>
               </div>
               <div className="form-group">
                 <textarea id="message" name="message" placeholder=" " rows="4" required></textarea>
